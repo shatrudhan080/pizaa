@@ -40,3 +40,24 @@ section.hero {
   color: #fff;
 }
 
+.order-btn {
+  background: #FE5F1E;
+  transition: all 0.3s ease-in-out;
+}
+
+.order-btn:hover {
+  background: #f06cc4;
+}
+
+section.cart {
+  background: #a39d9a;
+}
+
+section.cart .amount {
+  color: #FE5F1E;
+}
+
+section.login {
+  background: #a39d9a;
+}
+

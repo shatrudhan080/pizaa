@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-console.log('hello from app.js');
+console.log('hello from app.js v6 37 min');
 
 /***/ }),
 
