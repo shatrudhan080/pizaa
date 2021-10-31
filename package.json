@@ -1,0 +1,46 @@
+{
+    "name": "pizza",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "dev": "nodemon server.js",
+        "start": "node server.js",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/shatrudhan080/pizaa.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/shatrudhan080/pizaa/issues"
+    },
+    "homepage": "https://github.com/shatrudhan080/pizaa#readme",
+    "dependencies": {
+        "axios": "^0.24.0",
+        "connect-mongo": "^3.2.0",
+        "dotenv": "^10.0.0",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "express-ejs-layouts": "^2.5.1",
+        "express-flash": "^0.0.2",
+        "express-session": "^1.17.2",
+        "laravel-mix": "^5.0.9",
+        "mongoose": "^6.0.12",
+        "noty": "^3.2.0-beta-deprecated",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.3",
+        "nodemon": "^2.0.14",
+        "resolve-url-loader": "^3.1.0",
+        "sass": "^1.43.3",
+        "sass-loader": "^8.0.2",
+        "vue-template-compiler": "^2.6.14"
+    }
+}
